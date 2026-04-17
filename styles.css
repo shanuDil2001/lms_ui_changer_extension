@@ -1,0 +1,316 @@
+/* Navigation */
+.header-main {
+  background-color: #f3f4f4 !important;
+  border: none !important;
+  border-bottom: 1px solid #88b77b !important;
+}
+
+.site-name {
+  color: #88b77b !important;
+  font-weight: 600 !important;
+  text-shadow: 1px 1px 1px rgba(0, 0, 0, 1) !important;
+}
+
+.nav-link {
+  color: #88b77b !important;
+  font-weight: 600 !important;
+  border-radius: 5px !important;
+}
+
+.nav-link:hover {
+  color: rgb(72, 72, 72) !important;
+  background-color: rgba(128, 128, 128, 0.1) !important;
+}
+
+.nav-link.active {
+  color: rgb(72, 72, 72) !important;
+}
+
+/* Body */
+#page {
+  border-radius: 0px !important;
+  background: linear-gradient(rgba(255, 255, 0, 0.1), rgba(0, 128, 0, 0.1));
+  margin-top: 0px !important;
+}
+
+#topofscroll {
+  max-width: 90% !important;
+  margin-top: 30px !important;
+  margin-bottom: 30px !important;
+  border: 1px solid rgb(136, 183, 123, 0.5) !important;
+  border-radius: 5px !important;
+}
+
+#page-content {
+  padding-bottom: 0px !important;
+}
+
+header#page-header {
+  padding-bottom: 0px !important;
+  padding-right: 30px !important;
+  padding-left: 30px !important;
+  margin-top: 30px !important;
+}
+
+h1.h2 {
+  color: rgb(72, 72, 72);
+  font-size: 1.5rem;
+  text-transform: uppercase !important;
+  margin: 0px !important;
+}
+
+#region-main {
+  margin-top: 0px !important;
+  padding: 30px !important;
+  border-radius: 5px !important;
+}
+
+#inst5.block_myoverview {
+  margin: 0px !important;
+  margin-bottom: 0px !important;
+}
+
+#page.drawers #inst5.block_myoverview {
+  border: 1px solid #f3f4f4 !important;
+  border-radius: 5px;
+}
+
+#instance-5-header {
+  color: rgb(72, 72, 72);
+  background-color: #f8f8f8;
+  border-radius: 5px;
+  text-align: center !important;
+  margin: 15px !important;
+  padding: 5px !important;
+}
+
+.card-text.content.mt-3 {
+  padding: 15px !important;
+}
+
+.d-flex.align-items-center.my-2 {
+  margin: 0px !important;
+  margin-bottom: 10px !important;
+  padding: 0px !important;
+}
+
+.row.no-gutters {
+  width: 100% !important;
+  padding: 0px !important;
+  display: flex !important;
+  align-items: center !important;
+  gap: 10px !important;
+}
+
+.dropdown.mb-1.mr-1 {
+  margin: 0px !important;
+}
+
+.mb-1.mr-1.flex-grow-1 {
+  margin: 0px !important;
+}
+
+.mb-1.mr-1.d-flex.flex-wrap.align-items-center {
+  margin: 0px !important;
+}
+
+.dropdown.mb-1 {
+  margin: 0px !important;
+}
+
+.card-deck.dashboard-card-deck {
+  margin: 0px !important;
+  padding: 0px !important;
+  display: flex !important;
+  justify-content: space-between !important;
+}
+
+.card.dashboard-card {
+  margin: 0px !important;
+  margin-bottom: 10px !important;
+  border-radius: 5px !important;
+}
+
+.card-img.dashboard-card-img {
+  border-radius: 5px 5px 0 0 !important;
+}
+
+.card.dashboard-card .card-body.pr-1.course-info-container {
+  padding: 10px !important;
+}
+
+.icon.fa.fa-star.fa-fw {
+  color: rgb(255, 102, 0, 0.6) !important;
+}
+
+.aalink.coursename.mr-2.mb-1 .multiline {
+  color: rgb(72, 72, 72) !important;
+  font-weight: 600 !important;
+  transition: all 0.2s;
+}
+.aalink.coursename.mr-2.mb-1:hover {
+  text-decoration: none !important;
+}
+
+.aalink.coursename.mr-2.mb-1 .multiline:hover {
+  text-decoration: underline !important;
+}
+
+.text-muted.muted.d-flex.flex-wrap .categoryname.text-truncate {
+  color: rgb(72, 72, 72, 0.6) !important;
+  margin: 0px !important;
+  margin-top: 10px !important;
+}
+
+.card.dashboard-card .d-flex.align-items-start {
+  margin: 0px !important;
+  padding: 0px !important;
+  padding-top: 10px !important;
+  border-top: 1px solid rgb(136, 183, 123, 0.5);
+}
+
+.card-footer.dashboard-card-footer.border-0.bg-white.w-100 {
+  /* border: 1px solid red !important; */
+  border-radius: 5px !important;
+  padding: 0px !important;
+  padding-left: 10px !important;
+  padding-bottom: 10px !important;
+}
+
+.card-footer.dashboard-card-footer.menu.border-0.bg-white.ml-auto {
+  padding: 0px !important;
+}
+
+/* Remove default styles */
+.card.dashboard-card
+  > .card-body.pr-1.course-info-container
+  > .d-flex.align-items-start {
+  border-top: none !important;
+}
+
+.icon.fa.fa-ellipsis-v.fa-fw.m-0::before {
+  color: rgb(72, 72, 72) !important;
+}
+
+.progress-text {
+  color: rgb(72, 72, 72) !important;
+}
+
+.progress-text .sr-only + span {
+  color: #88b77b !important;
+  font-weight: 600 !important;
+}
+
+/* Hide unknow div with "card-text content mt-3" class */
+.card-text.content.mt-3 .footer {
+  display: none !important;
+}
+
+/* Hide existing footer section */
+#page-footer {
+  display: none !important;
+}
+
+/* Main footer */
+.footer {
+  display: flex !important;
+  justify-content: space-between !important;
+  gap: 60px !important;
+
+  padding: 50px 70px !important;
+
+  background: linear-gradient(135deg, #1f1f2e, #2a2a40) !important;
+  color: #ffffff !important;
+
+  border-top: 1px solid rgba(255, 255, 255, 0.08) !important;
+  backdrop-filter: blur(10px) !important;
+
+  font-family: "Inter", sans-serif !important;
+}
+
+/* Sections */
+.footer-section {
+  flex: 1 !important;
+}
+
+/* Headings */
+.footer-section h2 {
+  font-size: 16px !important;
+  font-weight: 600 !important;
+  margin-bottom: 18px !important;
+  letter-spacing: 0.5px !important;
+
+  color: #ffffff !important;
+}
+
+/* Text */
+.footer-section p {
+  font-size: 14px !important;
+  margin: 6px 0 !important;
+  color: #b8b8c7 !important;
+
+  transition: color 0.3s ease !important;
+}
+
+.footer-section p:hover {
+  color: #ffffff !important;
+}
+
+/* Social container */
+.social-icons {
+  display: flex !important;
+  gap: 14px !important;
+  margin-top: 12px !important;
+}
+
+/* Social buttons */
+.social-link {
+  width: 42px !important;
+  height: 42px !important;
+
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+
+  border-radius: 12px !important;
+
+  background: rgba(255, 255, 255, 0.05) !important;
+  border: 1px solid rgba(255, 255, 255, 0.08) !important;
+
+  color: #ffffff !important;
+  text-decoration: none !important;
+
+  transition: all 0.3s ease !important;
+}
+
+/* Hover effect (modern glow) */
+.social-link:hover {
+  background: rgba(74, 144, 226, 0.2) !important;
+  border-color: rgba(74, 144, 226, 0.5) !important;
+
+  transform: translateY(-4px) scale(1.05) !important;
+}
+
+/* Icon styling */
+.social-link i {
+  font-size: 18px !important;
+}
+
+/* Optional divider line */
+.footer::after {
+  content: "" !important;
+  position: absolute !important;
+  left: 50% !important;
+  bottom: 0 !important;
+
+  transform: translateX(-50%) !important;
+
+  width: 90% !important;
+  height: 1px !important;
+
+  background: rgba(255, 255, 255, 0.05) !important;
+}
+
+#backToTop {
+  z-index: 100;
+}

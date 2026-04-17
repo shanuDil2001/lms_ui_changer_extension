@@ -1,0 +1,25 @@
+{
+  "manifest_version": 3,
+  "name": "LMS UI CHANGER",
+  "version": "1.0",
+  "description": "This extension changes the UI of FOC Learning Management System",
+  "action": {
+    "default_icon": {
+      "16": "/icons/icon1000.png",
+      "24": "/icons/icon1000.png",
+      "32": "/icons/icon1000.png",
+      "128": "/icons/icon1000.png"
+    },
+    "default_popup": "/popup/popup.html",
+    "default_title": "LMS_UI_CHANGER_EXTENSION"
+  },
+  "permissions": ["activeTab"],
+  "host_permissions": ["https://fontawesome.com/*"],
+  "content_scripts": [
+    {
+      "matches": ["https://lms.foc.sjp.ac.lk/my/*"],
+      "js": ["content.js"],
+      "css": ["styles.css"]
+    }
+  ]
+}
